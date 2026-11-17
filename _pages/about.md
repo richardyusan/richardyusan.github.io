@@ -7,6 +7,9 @@ redirect_from:
   - /about.html
 ---
 
+**Economics researcher who codes: from banking and inflation research to game ports and hardware reverse engineering.**
+{: .page__lead}
+
 I tinker with computers. I bring old software to new platforms and squeeze more out of the hardware I own.
 
 I hold a Bachelor of Economics and have co-authored economic research articles on banking, digital currency and inflation in Indonesia (see [Research](/research/)).
