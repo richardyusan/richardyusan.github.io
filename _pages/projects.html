@@ -5,8 +5,26 @@ permalink: /projects/
 author_profile: true
 redirect_from:
   - /portfolio/
+  - /publications/
 ---
 
+<h2 id="research-articles">Research articles</h2>
+<p>Economic research I have co-authored.</p>
+<div class="repo-grid">
+  {% assign pubs = site.publications | sort: "date" | reverse %}
+  {% for p in pubs %}
+  <article class="repo-card">
+    <h3><a href="{{ p.paperurl }}">{{ p.title }}</a></h3>
+    <p><em>{{ p.venue }}</em> ({{ p.date | date: "%Y" }})</p>
+    <div class="repo-meta">
+      <span><i class="fas fa-file-alt"></i> Journal article</span>
+      <a href="{{ p.url | relative_url }}"><i class="fas fa-quote-right"></i> Details & citation</a>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+<h2 id="software">Software</h2>
 <p>Every public repository on my <a href="https://github.com/{{ site.github_user }}">GitHub</a>, most recently updated first. This list syncs with GitHub automatically.</p>
 
 {% include repo-cards.html filter=true %}

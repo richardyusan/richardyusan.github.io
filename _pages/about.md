@@ -7,7 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I love tinkering with computers. I like bringing old software to new platforms and squeezing more out of the hardware I own. Most of my open-source work falls into two areas:
+I tinker with computers. I bring old software to new platforms and squeeze more out of the hardware I own.
+
+I hold a Bachelor of Economics and have co-authored economic research articles on banking, digital currency and inflation in Indonesia (see [Projects](/projects/#research-articles)).
+
+Most of my open-source work falls into two areas:
 
 **Game preservation & porting.** I port classic games to modern platforms:
 

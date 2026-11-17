@@ -9,11 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
-<!-- TODO (Richard): add Education and Work experience sections, e.g.
 Education
 ======
-* B.S. in ..., University ..., 20XX
+* Bachelor of Economics
 
+<!-- TODO (Richard): add university and year above, and a Work experience section, e.g.
 Work experience
 ======
 * 20XX - present: Role, Company
@@ -22,7 +22,7 @@ Work experience
 
 Profile
 ======
-Software developer based in Indonesia, open to work. I focus on porting software to new platforms (Android, WebAssembly, online multiplayer) and on low-level tooling for laptops and PC firmware.
+Software developer based in Indonesia with a Bachelor of Economics and co-authored economic research. I focus on porting software to new platforms (Android, WebAssembly, online multiplayer) and on low-level tooling for laptops and PC firmware.
 
 Skills
 ======
@@ -37,6 +37,15 @@ Selected projects
 * **MultiHero ports**: BlitzBasic-to-C++ transpiler; Android, WebAssembly and online multiplayer versions of the Blitz3D fighting game.
 * **ManiaDrive Android**: Android port of the 2006 Raydium racing game with touch and gamepad support, story mode and LAN multiplayer.
 * **IdeaPad 14ALC6 tooling**: fan control, battery conservation mode, Wi-Fi power settings and Hackintosh EFI for the Lenovo IdeaPad 14ALC6.
+
+Publications
+======
+<ul>
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{% for p in pubs %}
+  <li>{{ p.citation }}</li>
+{% endfor %}
+</ul>
 
 Open-source repositories
 ======
