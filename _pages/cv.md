@@ -1,6 +1,8 @@
 ---
 layout: archive
 title: "CV"
+seo_title: "CV - Richard Yusan"
+description: "CV of Richard Yusan: Bachelor of Economics from Universitas Gadjah Mada, published economic research, and skills in C, C++, C#, Python and JavaScript."
 permalink: /cv/
 author_profile: true
 redirect_from:

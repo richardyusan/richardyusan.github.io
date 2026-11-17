@@ -12,7 +12,7 @@ site_theme               : "air" # The available themes options are "default", "
 title                    : "Richard Yusan"
 title_separator          : "-"
 name                     : &name "Richard Yusan"
-description              : &description "Richard Yusan - economics researcher and computer tinkerer from Indonesia: banking and inflation research, game ports, and hardware reverse engineering."
+description              : &description "Richard Yusan, economist from Indonesia who tinkers with computers: research on banking and inflation, game ports and hardware reverse engineering."
 url                      : https://richardyusan.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "richardyusan/richardyusan.github.io"
@@ -151,6 +151,10 @@ og_description           :  # Social media default site image description
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : Person
+  alternate_name         : "Richard Irfan Yusan" # name used on publications
+  job_title              : "Economist"
+  alumni_of              : "Universitas Gadjah Mada"
+  knows_about            : ["Economics", "Monetary economics", "Banking", "Inflation", "Software development", "Reverse engineering", "Game porting"]
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - "https://github.com/richardyusan"

@@ -1,5 +1,6 @@
 ---
 sitemap: false
+noindex: true
 layout: archive
 title: "Sitemap"
 permalink: /sitemap/

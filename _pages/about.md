@@ -1,6 +1,8 @@
 ---
 permalink: /
 title: "About me"
+seo_title: "Richard Yusan - Economist & Computer Tinkerer from Indonesia"
+description: "Richard Yusan, economist (Universitas Gadjah Mada) who tinkers with computers: research on banking, digital currency and inflation, game ports and hardware reverse engineering."
 author_profile: true
 redirect_from: 
   - /about/

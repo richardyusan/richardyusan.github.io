@@ -5,6 +5,9 @@ category: thesis
 permalink: /publication/2020-quantitative-easing-bitcoin-gold
 excerpt: 'Undergraduate thesis. Uses a Vector Error Correction Model (VECM) on 368 weekly observations (Dec 2012 - Dec 2019) to test how US Quantitative Easing affects bitcoin and gold prices, and whether bitcoin behaves as a safe-haven asset.'
 date: 2020-01-01
+citation_title: "Pengaruh Kebijakan Quantitative Easing Amerika Serikat terhadap Harga Bitcoin dan Emas pada Periode 2012-2019"
+authors: ["Yusan, Richard Irfan"]
+institution: "Universitas Gadjah Mada"
 venue: 'Undergraduate thesis (Skripsi), Economics, Universitas Gadjah Mada'
 paperurl: 'https://etd.repository.ugm.ac.id/penelitian/detail/192969'
 citation: 'Yusan, R. I. (2020). <i>Pengaruh Kebijakan Quantitative Easing Amerika Serikat terhadap Harga Bitcoin dan Emas pada Periode 2012-2019</i> [The Effect of US Quantitative Easing Policy on Bitcoin and Gold Prices, 2012-2019]. Undergraduate thesis, Universitas Gadjah Mada. Supervisor: Rimawan Pradiptyo, Ph.D.'

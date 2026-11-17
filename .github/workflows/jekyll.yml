@@ -51,6 +51,10 @@ jobs:
         run: python3 scripts/fetch_repos.py "${{ github.repository_owner }}" _data/repos.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate social preview image
+        run: |
+          python3 -m pip install --quiet --user --break-system-packages pillow
+          python3 scripts/make-og-image.py
       - name: Configure GitHub Pages
         id: pages
         uses: actions/configure-pages@v6.0.0
