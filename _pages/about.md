@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Hi, I'm Richard Yusan"
+title: "Richard Yusan GitHub"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I'm a software developer from Indonesia. I like bringing old software to new platforms and squeezing more out of the hardware I own. Most of my open-source work falls into two areas:
+I love tinkering with computers. I like bringing old software to new platforms and squeezing more out of the hardware I own. Most of my open-source work falls into two areas:
 
 **Game preservation & porting.** I port classic games to modern platforms:
 
