@@ -1,15 +1,14 @@
 ---
 layout: single
-title: "Projects"
-permalink: /projects/
+title: "Research"
+permalink: /research/
 author_profile: true
 redirect_from:
-  - /portfolio/
   - /publications/
 ---
 
-<h2 id="research-articles">Research articles</h2>
-<p>Economic research I have co-authored.</p>
+<p>Economic research I have co-authored, on banking, money and inflation in Indonesia.</p>
+
 <div class="repo-grid">
   {% assign pubs = site.publications | sort: "date" | reverse %}
   {% for p in pubs %}
@@ -23,8 +22,3 @@ redirect_from:
   </article>
   {% endfor %}
 </div>
-
-<h2 id="software">Software</h2>
-<p>Every public repository on my <a href="https://github.com/{{ site.github_user }}">GitHub</a>, most recently updated first. This list syncs with GitHub automatically.</p>
-
-{% include repo-cards.html filter=true %}

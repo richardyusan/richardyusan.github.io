@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Richard Yusan GitHub"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -9,7 +9,7 @@ redirect_from:
 
 I tinker with computers. I bring old software to new platforms and squeeze more out of the hardware I own.
 
-I hold a Bachelor of Economics and have co-authored economic research articles on banking, digital currency and inflation in Indonesia (see [Projects](/projects/#research-articles)).
+I hold a Bachelor of Economics and have co-authored economic research articles on banking, digital currency and inflation in Indonesia (see [Research](/research/)).
 
 Most of my open-source work falls into two areas:
 
@@ -24,6 +24,6 @@ Most of my open-source work falls into two areas:
 
 Latest projects
 ------
-These sync automatically with my GitHub. See [all projects](/projects/).
+These sync automatically with my GitHub. See [all software](/software/).
 
 {% include repo-cards.html limit=6 %}

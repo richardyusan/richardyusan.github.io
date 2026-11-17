@@ -1,9 +1,12 @@
-# Header links, in order. Publications / Talks / Teaching / Blog pages still
-# exist in the template - add them back here once you have content for them.
+# Header links, in order. Talks / Teaching / Blog pages still exist in the
+# template - add them back here once you have content for them.
 
 main:
-  - title: "Projects"
-    url: /projects/
+  - title: "Research"
+    url: /research/
+
+  - title: "Software"
+    url: /software/
 
   - title: "CV"
     url: /cv/

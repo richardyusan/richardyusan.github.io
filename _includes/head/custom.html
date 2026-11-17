@@ -22,4 +22,23 @@
 <link rel="icon" href="{{ base_path }}/images/favicon.ico"/>
 <meta name="theme-color" content="var(--global-bg-color)"/>
 
+<!-- Card grid used by the Software (repo cards) and Research pages -->
+<style>
+.repo-tools{display:flex;flex-wrap:wrap;gap:.6em;align-items:center;margin:0 0 1em}
+.repo-tools input,.repo-tools select{font:inherit;font-size:.8em;padding:.45em .7em;border:1px solid var(--global-border-color);border-radius:6px;background:var(--global-bg-color);color:var(--global-text-color)}
+.repo-tools input{flex:1 1 14em;min-width:0}
+.repo-count{font-size:.75em;color:var(--global-text-color-light)}
+.repo-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,16em),1fr));gap:1em;margin-bottom:1.5em}
+.repo-card{display:flex;flex-direction:column;border:1px solid var(--global-border-color);border-radius:8px;padding:.9em 1em;background:var(--global-bg-color);transition:border-color .15s,transform .15s}
+.repo-card:hover{border-color:var(--global-link-color);transform:translateY(-2px)}
+.repo-card h3{margin:0 0 .35em;font-size:.95em;word-break:break-word}
+.repo-card h3 a{text-decoration:none}
+.repo-card p{flex:1;margin:0 0 .6em;font-size:.78em;line-height:1.45;color:var(--global-text-color)}
+.repo-topics{display:flex;flex-wrap:wrap;gap:.3em;margin-bottom:.6em}
+.repo-topics span{font-size:.65em;padding:.15em .55em;border-radius:999px;background:var(--global-code-background-color);color:var(--global-link-color)}
+.repo-meta{display:flex;flex-wrap:wrap;gap:.9em;font-size:.7em;color:var(--global-text-color-light)}
+.repo-meta a{color:inherit}
+.repo-badge{font-size:.65em;font-weight:normal;padding:.1em .45em;border:1px solid var(--global-border-color);border-radius:4px;color:var(--global-text-color-light)}
+</style>
+
 <!-- end custom head snippets -->
