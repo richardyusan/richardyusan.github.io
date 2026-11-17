@@ -11,9 +11,10 @@ redirect_from:
 
 Education
 ======
-* Bachelor of Economics
+* Bachelor of Economics (S1 Ilmu Ekonomi), Universitas Gadjah Mada
+  * Thesis (2020): *The Effect of US Quantitative Easing Policy on Bitcoin and Gold Prices, 2012-2019*. Supervisor: Rimawan Pradiptyo, Ph.D.
 
-<!-- TODO (Richard): add university and year above, and a Work experience section, e.g.
+<!-- TODO (Richard): add a Work experience section, e.g.
 Work experience
 ======
 * 20XX - present: Role, Company
@@ -41,7 +42,7 @@ Selected projects
 Publications
 ======
 <ul>
-{% assign pubs = site.publications | sort: "date" | reverse %}
+{% assign pubs = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
 {% for p in pubs %}
   <li>{{ p.citation }}</li>
 {% endfor %}

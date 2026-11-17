@@ -7,18 +7,26 @@ redirect_from:
   - /publications/
 ---
 
-<p>Economic research I have co-authored, on banking, money and inflation in Indonesia.</p>
+<p>Economic research on banking, money, digital currency and inflation in Indonesia.</p>
 
+{% assign pubs = site.publications | sort: "date" | reverse %}
+{% assign sections = "manuscripts|Journal articles|fa-file-alt|Journal article,thesis|Thesis|fa-graduation-cap|Undergraduate thesis" | split: "," %}
+{% for s in sections %}
+  {% assign parts = s | split: "|" %}
+  {% assign items = pubs | where: "category", parts[0] %}
+  {% if items.size > 0 %}
+<h2>{{ parts[1] }}</h2>
 <div class="repo-grid">
-  {% assign pubs = site.publications | sort: "date" | reverse %}
-  {% for p in pubs %}
+  {% for p in items %}
   <article class="repo-card">
     <h3><a href="{{ p.paperurl }}">{{ p.title }}</a></h3>
     <p><em>{{ p.venue }}</em> ({{ p.date | date: "%Y" }})</p>
     <div class="repo-meta">
-      <span><i class="fas fa-file-alt"></i> Journal article</span>
+      <span><i class="fas {{ parts[2] }}"></i> {{ parts[3] }}</span>
       <a href="{{ p.url | relative_url }}"><i class="fas fa-quote-right"></i> Details & citation</a>
     </div>
   </article>
   {% endfor %}
 </div>
+  {% endif %}
+{% endfor %}
