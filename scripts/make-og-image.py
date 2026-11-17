@@ -51,10 +51,10 @@ def main():
 
     d.text((80, 90), NAME, font=font(84, bold=True), fill=DARK)
     d.text((82, 210), TAGLINE, font=font(40), fill=GREY)
-    d.line([80, 330, W - 80, 330], fill=(225, 228, 232), width=2)
+    d.line([80, 305, W - 80, 305], fill=(225, 228, 232), width=2)
 
     f_pill = font(30, bold=True)
-    x, y = 80, 375
+    x, y = 80, 335
     for p in PILLS:
         w = d.textlength(p, font=f_pill) + 48
         if x + w > W - 80:
